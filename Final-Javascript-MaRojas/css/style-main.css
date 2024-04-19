@@ -1,0 +1,270 @@
+*{
+    padding:0;
+    margin:0;
+    }
+
+
+body{
+    font-family: "Play", sans-serif;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgb(107,6,175);
+    background: linear-gradient(180deg, rgba(107,6,175,1) 0%, rgba(82,48,117,1) 24%, rgba(82,48,117,1) 69%, rgba(107,6,175,1) 100%);
+}
+
+
+.ui-style-bg{
+    Display: flex; 
+    position: relative;
+    Justify-content: center; 
+    Align-items: center; 
+    width: 800px;
+    height: 650px;
+    margin-top: 100px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.ui-style-bg{
+    background-size: 123vh;
+    background-position-x: -100px;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/free-vector/gradient-rocket_52683-9185.jpg?w=900&t=st=1712070662~exp=1712071262~hmac=81f288dcee55d4480e1c18fa0a716f0cc3824f5fde10decb28d43a3aa5b20602');
+}
+
+.bg-overcolor{
+    Display: block; 
+    position: relative;
+    Justify-content: center; 
+    Align-items: center; 
+    width: 800px;
+    height: 650px;
+    border-radius: 30px;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.781) 44%, rgba(203, 3, 253, 0.219) 100%);
+}
+
+.IntroText{
+    display:block;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 160px;
+    top: 260px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    word-break: normal;
+    text-align: center;
+}
+
+
+.PrimaryText2{
+    display: flex;
+    position: relative;
+    font-weight: bolder;
+    font-size: 60px;
+    stroke-width: 8;
+    top: -80px;
+    color: rgb(60, 35, 83);
+    -webkit-text-stroke: 9px rgba(212, 0, 255, 0.384);
+}
+
+.PrimaryText1{
+    display: flex;
+    position: relative;
+    font-weight: bolder;
+    font-size: 60px;
+    top: -162px;
+    left: 1px;
+    background: linear-gradient(0deg, #00f9cf 23%, #bdff53 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coder-img{
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 180px;
+    scale: 80%;
+}
+
+.divider{
+    display: flex;
+    position: relative;
+    color: #bdff53;
+    font-weight: 500;
+    font-size: 30px;
+    top: 175px;
+    left: 260px;
+}
+
+.form-style{
+    display: flexbox;
+    position: relative;
+    margin-top: 180px;
+    height: auto;
+    color: white;
+}
+
+.title-form{
+    margin-bottom: 5px;
+}
+
+.subtitle-form{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    color: white;
+    line-break: loose;
+}
+
+.text-color-options{
+    color:#bdff53;
+    font-weight: 100px;
+}
+
+#name-form{
+    margin-top: 20px;
+}
+
+
+#name{
+    border-style: solid;
+    margin-right: 10px;
+    border-color: white;
+    border-radius: 5px;
+    height: 35px;
+    background-color: rgba(127, 67, 179, 0.123);
+    color: white;
+}
+
+#comision{
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    height: 35px;
+    background-color: rgba(127, 67, 179, 0.123);
+    color: white;
+}
+
+.mainPage-btns{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+}
+
+.options-btn{
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    height: 35px;
+    width: 90px;
+    border-style: none;
+    color: white;
+    background-color:#9819ff;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    height: 35px;
+    width: 90px;
+    border-style: none;
+    background-color:#bdff53;
+    border-radius: 5px;
+    
+}
+
+a{
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.submit-btn a{
+    color: black;
+    font-weight: 500;
+}
+
+.submit-btn a:hover{
+    color: #6b00ad;
+    font-weight: 900;
+    background-color:#53ffe2;
+}
+
+.submit-btn:hover{
+    background-color:#53ffe2;
+}
+
+
+.options-btn:hover{
+    background-color: #6810af;
+    font-weight: 900;
+    color: #53ffe2;
+
+}
+
+
+.modal-content{
+    display: flex;
+    position: relative;
+    top: 73px;
+    right: 150px;
+    background-color: #f8f0ff;
+    width: 800px;
+    height: 650px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.modal-header{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: auto;
+    
+}
+
+.btn-close{
+    display: flex;
+    position: relative;
+    right: 15px;
+}
+
+.modal-title{
+    display: flex;
+    position: relative;
+    left: 15px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #6b00ad;
+}
+
+.keyImg{
+    display: flex;
+    position: relative;
+    left: 50px;
+    margin-top: 40px;
+}
+
+.key-info{
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-justify: left;
+    color: #6b00ad;
+    font-weight: bold;
+}
+
+.key-info p{
+    color: black;
+    font-weight:normal;
+    padding-right: 50px;
+}

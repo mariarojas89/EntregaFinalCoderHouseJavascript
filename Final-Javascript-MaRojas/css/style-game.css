@@ -1,0 +1,222 @@
+*{
+    padding:0;
+    margin:0;
+    }
+
+
+body{
+    font-family: "Play", sans-serif;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgb(107,6,175);
+    background: linear-gradient(180deg, rgba(107,6,175,1) 0%, rgba(82,48,117,1) 24%, rgba(82,48,117,1) 69%, rgba(107,6,175,1) 100%);
+}
+
+
+.ui-style{
+    Display: flex; 
+    Justify-content: center; 
+    Align-items: center; 
+    width: 800px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.player-info{
+    display: inline-block;
+    position: relative;
+    justify-items:center;
+    text-justify: left;
+    height: 650px;
+    align-content: space-around;
+    color: white;
+    clear: both;
+    background: rgb(102,30,152);
+    background: -moz-linear-gradient(0deg, rgba(102,30,152,1) 0%, rgba(40,21,48,1) 63%);
+    background: -webkit-linear-gradient(0deg, rgba(102,30,152,1) 0%, rgba(40,21,48,1) 63%);
+    background: linear-gradient(0deg, rgba(102,30,152,1) 0%, rgba(40,21,48,1) 63%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#661e98",endColorstr="#281530",GradientType=1);
+    border-style: solid;
+    border-color: none;
+    border-width: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 0;
+    padding: 0;
+   
+}
+.img-style{
+    display: fixed;
+    position:absolute;
+    top: 4px; 
+}
+.pilot-img{
+    width: 200px;
+    height: auto; 
+}
+.player-style{
+    display: flexbox;
+    position:absolute;
+    padding: 15px;
+    top: 110px;
+    height: fit-content;
+    color: #281530;
+}
+
+.level-style{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    top: 175px;
+    width: 200px;
+    height: 40px; 
+    color: white;
+    background: rgba(91, 38, 126, 0.418);
+    
+    
+}
+
+.lives-style{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    top: 175px;
+    width: 200px;
+    height: 165px; 
+    color: white;
+    background: #ba53ff46;
+    
+}
+.powertext{
+    margin-top: 15px;
+}
+
+.score-style{
+    position:relative;
+    justify-items: center;
+    align-content:baseline;
+    padding-left: 15px;
+    padding-top: 20px;
+    top: 167px;
+    width: 200px;
+    height: 111px; 
+    color: #281530;
+    border-bottom-right-radius: 30px;
+    background: #00ffff;
+}
+
+.pause-btn{
+    display: flex;
+    position: relative;
+    width: 130px;
+    height: 35px;
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 6px;
+    color: white;
+    top: 132px;
+    left: 35px;
+    position:relative;
+    align-content:center;
+    justify-content:center;
+    background-color: #281530;
+}
+
+.lives-bg{
+    display: block;
+    background-color: #281530;
+    border-style: solid;
+    height: 20px;
+    border-width:3px;
+    border-color: #281530;
+    justify-items: center;
+    align-content: center;
+}
+
+#lives{
+    display: inline-block;
+    position: relative;
+    background-color: #00ffff;
+    width: 15px;
+    height: 16px;
+    margin-top: 7px;
+    color: rgb(189, 255, 83);
+    border-style: solid;
+    border-width:1px;
+    border-color: #281530;
+}
+#PowerBar{
+    display: inline-block;
+    position: relative;
+    background: rgb(189, 255, 83);
+    width: 165px;
+    height: 16px;
+    margin-top: 7px;
+    color: rgb(189, 255, 83);
+    border-style: solid;
+    border-width:1px;
+    border-color: #281530;
+}
+
+.Title1{
+    font-weight: bold;
+    line-height: 38px;
+    color: #bdff53;
+    text-justify: center;
+}
+
+.Title2{
+    font-weight: normal;
+    color: white;
+    
+}
+
+.title3{
+    font-weight: 600;
+}
+
+.info{
+    color: rgb(189, 255, 83);
+    font-weight: bold;
+}
+
+.Projectile{
+    border-style: solid;
+    border-width: 3;
+    border-color: aqua;
+}
+
+#canvas1{
+    display: flex;
+    height: 650px;
+    width: 600px;
+    border-top-left-radius: 30px;
+    background: linear-gradient(0deg, rgba(101, 30, 152, 0) 15%, rgba(40,21,48,1) 90%);
+}
+
+#scoreResults{
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 30px;
+    color: #281530;
+}
+
+#lives{
+    color:#bdff53;
+}
+
+#waveCount{
+    color:rgb(189, 255, 83);
+}
+
+#player, #invader, #robot{
+    display: none;
+    
+}
